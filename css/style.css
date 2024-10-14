@@ -17,7 +17,7 @@ header {
     font-weight: bold;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 5rem;
 }
 
 .header-items {
@@ -39,7 +39,6 @@ main {
     font-family: 'Montserrat';
     display: flex;
     justify-content: space-between;
-    height: 80vh;
 }
 
 .main-img img{
@@ -55,14 +54,16 @@ main {
     padding: 3rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.2rem;
 }
 
 .main-buttons{
     padding: 1rem;
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    gap: 1rem;
 }
 
 .right-button{
@@ -95,6 +96,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5rem;
     border-top:solid 1px #121529;
 }
